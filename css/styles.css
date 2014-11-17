@@ -2,7 +2,66 @@ body {
   margin: 50px auto;
   width: 640px; }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style-type: none;
+    display: inline;
+    background-color: #2980B9;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    ms-border-radius: 15px;
+    border-radius: 15px; }
+  ul a {
+    text-decoration: none;
+    color: #2C3E50;
+    padding: 15px; }
+
+h1, h2 {
+  font-family: Arial, sans-serif;
+  color: white; }
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3em; }
+
+h2 {
+  font-size: .8em;
+  font-weight: normal; }
+
+section h1 {
+  color: #E74C3C;
+  font-weight: 1.5em; }
+
+article {
+  color: #ECF0F1; }
+
 img {
-  width: 100%; }
+  width: 100%;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  ms-border-radius: 15px;
+  border-radius: 15px; }
+
+body {
+  background-color: #2C3E50; }
+
+article {
+  padding: 10px;
+  background-color: #2980B9;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  ms-border-radius: 15px;
+  border-radius: 15px; }
+
+section h1 {
+  background-color: #ECF0F1;
+  padding-left: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  ms-border-radius: 15px;
+  border-radius: 15px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,4 +1,34 @@
 @import "layout";
+@import "type";
 
 
-img {width:100%;}
+$dark: #2C3E50;
+$radius: 15px;
+
+$white: #ECF0F1;
+$mid: #3498DB;
+$light: #2980B9;
+
+
+img {width:100%;
+-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+ms-border-radius: $radius;
+border-radius: $radius;}
+
+
+body {background-color: $dark}
+
+article { padding: 10px;
+background-color: $light;
+-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+ms-border-radius: $radius;
+border-radius: $radius;}
+
+section h1 {background-color: $white;
+padding-left: 15px;
+-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+ms-border-radius: $radius;
+border-radius: $radius;}

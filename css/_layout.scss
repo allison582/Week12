@@ -1,1 +1,24 @@
+$light: #2980B9;
+$dark: #2C3E50;
+$radius: 15px;
+
 body {margin: 50px auto; width: 640px;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {list-style-type: none;
+    display: inline;
+    background-color: $light;
+    -webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	ms-border-radius: $radius;
+	border-radius: $radius;}
+
+    a {text-decoration: none;
+    color: $dark;
+    padding: 15px;
+    }
+} 
