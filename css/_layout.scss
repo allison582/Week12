@@ -23,9 +23,17 @@ outline-width: 2px;
 
 article {margin-bottom: 30px;margin-top: 30px;}
 
-h1 {margin-bottom: 7px;}
-h2 {margin-top: 5px;margin-bottom: 5px;}
-h3 {margin-top: 7px;margin-bottom: 2px;}
+article header h2 {padding-top: 30px;}
+
+h1 {margin-right: 200px;}
+section h1 {margin-bottom: 7px;margin-right:5px;}
+footer h1 {margin: 0px;}
+
+article header h2 {display: block;margin-top: 0px;line-height: .1em;margin-bottom: 20px;}
+
+header nav {display: block; margin-top: 20px;}
+
+h3 {margin-top: 7px;margin-bottom: 8px;}
 p {margin-top: 5px;}
 
 nav ul {
@@ -36,7 +44,7 @@ nav ul {
     li {list-style-type: none;
     display: inline;
     padding-top: 8px;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
     margin-right: 20px;
     background-color: $light;
     -webkit-border-radius: $radiusnav;
@@ -50,4 +58,11 @@ nav ul {
     }
 } 
 
+
 article ul {list-style-type: disc;}
+article ul li {padding-bottom: 10px;}
+
+
+footer h1, h2, nav, nav ul {display: inline}
+footer nav ul li {background-color:$dark;}
+footer nav ul li a{color: white;font-size: .8em;}

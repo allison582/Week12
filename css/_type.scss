@@ -8,7 +8,9 @@ h2 {font-family: Arial, sans-serif;font-size: .8em;
 font-weight: normal;color: white;
 }
 
-article h2:first-of-type {font-weight: bold;font-size: 1.4em}
+article h2 {font-weight: bold;font-size: 1.4em;}
+
+article header h2 {padding-top: 30px;}
 
 h3 {font-weight: normal;
 font-family: Palatino, serif;}
@@ -20,3 +22,14 @@ article {color: $white;}
 ul a {font-family: Arial, sans-serif;font-weight:bold;}
 
 blockquote {font-size: 1.5em;font-weight: bold; line-height: 1em;}
+
+
+footer h1 {text-transform: lowercase;font-family: Arial, sans-serif; font-size: .5em;font-weight: bold; color: white;}
+
+footer h2 {font-size: .5em;font-weight: normal;}
+
+footer nav li {font-size: .7em;}
+footer nav a {font-weight:normal;text-transform:lowercase;}
+
+
+
