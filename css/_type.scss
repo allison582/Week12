@@ -1,30 +1,29 @@
 $red: #E74C3C;
 $white: #ECF0F1;
+$sansfont: Arial;
+$seriffont: Palatino;
 
-h1 {font-family: Arial, sans-serif;
+h1 {font-family: $sansfont, sans-serif;
 		color: white;text-transform: uppercase;font-size:3em;}
 
-h2 {font-family: Arial, sans-serif;font-size: .8em;
-font-weight: normal;color: white;
+h2 {font-family: $seriffont, serif;font-size: .7em;
+font-weight: normal;color: $white;
 }
 
-article h2 {font-weight: bold;font-size: 1.4em;}
-
-article header h2 {padding-top: 30px;}
+article {color: $white;
+	h2 {font-family: $sansfont, sans-serif;font-weight: bold;font-size: 1.4em;}
+}
 
 h3 {font-weight: normal;
-font-family: Palatino, serif;}
+font-family: $seriffont, serif;}
 
 section h1 {color: $red; font-weight: 1.5em;}
 
-article {color: $white;}
-
-ul a {font-family: Arial, sans-serif;font-weight:bold;}
+ul a {font-family: $sansfont, sans-serif;font-weight:bold;}
 
 blockquote {font-size: 1.5em;font-weight: bold; line-height: 1em;}
 
-
-footer h1 {text-transform: lowercase;font-family: Arial, sans-serif; font-size: .5em;font-weight: bold; color: white;}
+footer h1 {text-transform: lowercase;font-family: $sansfont, sans-serif; font-size: .5em;font-weight: bold; color: $white;}
 
 footer h2 {font-size: .5em;font-weight: normal;}
 
