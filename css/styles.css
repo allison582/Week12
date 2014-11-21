@@ -64,7 +64,6 @@ nav ul {
     background-color: #2980B9;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
-    ms-border-radius: 5px;
     border-radius: 5px; }
   nav ul a {
     text-decoration: none;
@@ -112,8 +111,7 @@ h3 {
   font-family: Palatino, serif; }
 
 section h1 {
-  color: #E74C3C;
-  font-weight: 1.5em; }
+  color: #E74C3C; }
 
 ul a {
   font-family: Arial, sans-serif;
@@ -142,14 +140,10 @@ footer nav a {
   font-weight: normal;
   text-transform: lowercase; }
 
-article header h2 {
-  padding-top: 30px; }
-
 img {
   width: 100%;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
-  ms-border-radius: 15px;
   border-radius: 15px; }
 
 body {
@@ -161,7 +155,6 @@ article {
   background-color: #2980B9;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
-  ms-border-radius: 15px;
   border-radius: 15px; }
 
 p {
@@ -172,7 +165,6 @@ section h1 {
   padding-left: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
-  ms-border-radius: 15px;
   border-radius: 15px; }
 
 /*# sourceMappingURL=styles.css.map */

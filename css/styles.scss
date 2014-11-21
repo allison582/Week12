@@ -13,7 +13,6 @@ $light: #2980B9;
 img {width:100%;
 -webkit-border-radius: $radius;
 -moz-border-radius: $radius;
-ms-border-radius: $radius;
 border-radius: $radius;}
 
 
@@ -24,7 +23,6 @@ line-height: 1em;
 background-color: $light;
 -webkit-border-radius: $radius;
 -moz-border-radius: $radius;
-ms-border-radius: $radius;
 border-radius: $radius;}
 
 p {padding-top: 0px;}
@@ -33,5 +31,4 @@ section h1 {background-color: $white;
 padding-left: 15px;
 -webkit-border-radius: $radius;
 -moz-border-radius: $radius;
-ms-border-radius: $radius;
 border-radius: $radius;}
